@@ -9,6 +9,8 @@ public class Main {
     Employee manager = new Manager("Артём", 50);
     Shape s1 = new Rectangle();
     Shape s2 = new Circle();
+   Guitar guitar = new Guitar();
+   Piano piano = new Piano();
 
 
     public static void main(String[] args) {
@@ -38,5 +40,14 @@ public class Main {
 
         s1.draw();
         s2.draw();
+    }
+
+    @Test
+    public void tasksModuleEight() {
+        var guitarStruna = StrungsCount.GUITAR;
+        var pianoStruna = StrungsCount.PIANO;
+
+        guitar.play(guitarStruna.getStruna());
+        piano.play(pianoStruna.getStruna());
     }
 }
