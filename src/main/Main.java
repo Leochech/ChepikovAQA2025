@@ -3,6 +3,9 @@ package src.main;
 import org.junit.Test;
 
 public class Main {
+
+    HiByeHyperboleArr hBHArr = new HiByeHyperboleArr();
+
     public static void main(String[] args) {
         Variables variables = new Variables("Я переменная 1", "Я переменная 2");
         System.out.println(Variables.var3 + "! " + variables.var1 + "! " + variables.var2 + "! ");
@@ -16,5 +19,10 @@ public class Main {
         car1.makeBebe();
         car2.makeBebe();
         car3.makeBebe();
+    }
+
+    @Test
+    public void tasksModuleFive() {
+        hBHArr.outputFirstStringInArray().outputSecondStringInArray().fiendWordWhereSecondO();
     }
 }
