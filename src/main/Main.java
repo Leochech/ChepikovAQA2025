@@ -5,6 +5,11 @@ import org.junit.Test;
 public class Main {
 
     HiByeHyperboleArr hBHArr = new HiByeHyperboleArr();
+    Employee developer = new Developer("Дмитрий", 100);
+    Employee manager = new Manager("Артём", 50);
+    Shape s1 = new Rectangle();
+    Shape s2 = new Circle();
+
 
     public static void main(String[] args) {
         Variables variables = new Variables("Я переменная 1", "Я переменная 2");
@@ -24,5 +29,14 @@ public class Main {
     @Test
     public void tasksModuleFive() {
         hBHArr.outputFirstStringInArray().outputSecondStringInArray().fiendWordWhereSecondO();
+    }
+
+    @Test
+    public void tasksModuleSeven() {
+        developer.work();
+        manager.work();
+
+        s1.draw();
+        s2.draw();
     }
 }
