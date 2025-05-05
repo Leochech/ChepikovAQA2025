@@ -1,3 +1,5 @@
+package old;
+
 public class Car {
 
     public String model;

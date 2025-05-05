@@ -1,3 +1,5 @@
+package old;
+
 public class Variables {
     public String var1;
     public String var2;
