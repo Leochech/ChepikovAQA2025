@@ -1,5 +1,3 @@
-package src.main;
-
 public class Car {
 
     public String model;

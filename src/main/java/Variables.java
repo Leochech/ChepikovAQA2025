@@ -1,5 +1,3 @@
-package src.main;
-
 public class Variables {
     public String var1;
     public String var2;

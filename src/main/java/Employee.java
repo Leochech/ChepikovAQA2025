@@ -1,5 +1,3 @@
-package src.main;
-
 import lombok.Getter;
 
 @Getter

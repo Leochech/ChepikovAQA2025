@@ -1,5 +1,3 @@
-package src.main;
-
 import org.junit.Test;
 
 public class Main {

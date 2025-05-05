@@ -1,5 +1,3 @@
-package src.main;
-
 public class Guitar implements Playable {
 
     @Override

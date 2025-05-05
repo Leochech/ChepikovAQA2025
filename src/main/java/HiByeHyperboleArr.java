@@ -1,5 +1,3 @@
-package src.main;
-
 import java.util.Random;
 
 public class HiByeHyperboleArr {

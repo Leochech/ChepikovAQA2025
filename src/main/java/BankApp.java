@@ -1,5 +1,3 @@
-package src.main;
-
 public class BankApp {
     static BankProcess bc = new BankProcess();
 
