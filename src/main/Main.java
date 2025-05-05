@@ -50,4 +50,10 @@ public class Main {
         guitar.play(guitarStruna.getStruna());
         piano.play(pianoStruna.getStruna());
     }
+
+    @Test
+    public void tasksModuleNine() {
+        hBHArr.generateRandomNumber();
+        hBHArr.getRandomString();
+    }
 }
