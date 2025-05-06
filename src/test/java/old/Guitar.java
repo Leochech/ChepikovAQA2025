@@ -1,4 +1,4 @@
-package src.main;
+package old;
 
 public class Guitar implements Playable {
 

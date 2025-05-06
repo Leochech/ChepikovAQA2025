@@ -1,4 +1,4 @@
-package src.main;
+package old;
 
 public class Rectangle extends Shape {
     public void draw() {

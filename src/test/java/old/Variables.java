@@ -1,4 +1,4 @@
-package src.main;
+package old;
 
 public class Variables {
     public String var1;

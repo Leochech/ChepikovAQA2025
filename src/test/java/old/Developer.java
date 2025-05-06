@@ -1,5 +1,4 @@
-package src.main;
-
+package old;
 
 public class Developer extends Employee {
     public Developer(String name, int salary) {
